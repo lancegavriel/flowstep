@@ -12,7 +12,7 @@ class LoginView(ttk.Frame):
         self.registering = not app.auth.has_account()
 
         ttk.Label(self, text="FlowStep", font=("Segoe UI", 28, "bold")).pack(pady=(40, 0))
-        ttk.Label(self, text="Sari-sari store utang tracker").pack(pady=(0, 24))
+        ttk.Label(self, text="Sari-Sari Store Credit Tracker").pack(pady=(0, 24))
 
         form = ttk.Frame(self)
         form.pack()
